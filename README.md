@@ -1,12 +1,6 @@
 # Cryptocurrencies
-You and Martha have done your research. You understand what unsupervised learning is used for, how to process data, how to cluster, how to reduce your dimensions, and how to reduce the principal components using PCA. It’s time to put all these skills to use by creating an analysis for your clients who are preparing to get into the cryptocurrency market.
-
-Martha is a senior manager for the Advisory Services Team at Accountability Accounting, one of your most important clients. Accountability Accounting, a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. So, they’ve asked you to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
-
-The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
-
 ## Overview
-An investment bank wants to offer a cryptocurrency portfolio, but they need to know how to group and classify each investment. We've been hired to create an unsupervised models that auto generates clusters based on the datas' "important features;" These are seen as flexible since they use an entire dataset and ignore pairing inputs/outputs. Unsupervised learners are primarily used in determining non-linear clustering rather than to predicit a classification.
+An investment bank wants to offer a cryptocurrency portfolio, but they need to know how to group and classify each investment. We've been hired to create an unsupervised models that auto generates clusters based on the datas' "important features;" These are seen as flexible since they can use an entire dataset and ignore pairing inputs/outputs. Unsupervised learners are primarily used in determining non-linear clustering rather than prediciting a classification.
 
 ### Purpose
 Preprocess the data; converting categorical variables to booleans and normalizing with StandardScaler. Then fit the KMeans model of varying cluster sizes to plot an elbow curve and determine an ideal amount of clusters. Use this number to predict and vizualize how each principle components affects its categorization.
@@ -28,3 +22,4 @@ A cluster size 4 was chosen based on this elbow curve <br /><br/>
 <img width="667" alt="Screen Shot 2022-07-29 at 11 05 07 AM" src="https://user-images.githubusercontent.com/79609464/181809771-3c13a975-2f61-4b7b-b336-9460e9f8096c.png">
 
 ## Summary
+We've succesfully processed the Crypto data for machine learning, clustering each coin into 4 groups with an unsupervised model
