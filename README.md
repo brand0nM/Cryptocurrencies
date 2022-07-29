@@ -6,18 +6,18 @@ Martha is a senior manager for the Advisory Services Team at Accountability Acco
 The data Martha will be working with is not ideal, so it will need to be processed to fit the machine learning models. Since there is no known output for what Martha is looking for, she has decided to use unsupervised learning. To group the cryptocurrencies, Martha decided on a clustering algorithm. She’ll use data visualizations to share her findings with the board.
 
 ## Overview
-Unsupervised learning allow us to auto generates clusters based on the datas' "important features;" They are seen as flexible since they use an entire dataset and ignore pairing its inputs/outputs. Unsupervised learners are primarily used to determine non-linear clustering rather than prediciting a classification
+An investment bank wants to offer a cryptocurrency portfolio, but they need to know how to group and classify each investment. We've been hired to create an unsupervised models that auto generates clusters based on the datas' "important features;" These are seen as flexible since they use an entire dataset and ignore pairing inputs/outputs. Unsupervised learners are primarily used in determining non-linear clustering rather than to predicit a classification.
 
 ### Purpose
-Preprocess the data; converting categorical variables to booleans and normalizing with StandardScaler. Then fit the KMeans model of varying cluster sizes to plot an elbow curve and determine the ideal amount of clusters. Use the number of clusters to predict and vizualize how its principle components affect its categorization.
+Preprocess the data; converting categorical variables to booleans and normalizing with StandardScaler. Then fit the KMeans model of varying cluster sizes to plot an elbow curve and determine an ideal amount of clusters. Use this number to predict and vizualize how each principle components affects its categorization.
 
 ## Analysis
 ### Dendrogram
-Dendrograms can be helpful in determining the number of clusters; however, no obvious patterns have emerged- and understandably so for the dataset.<br />
+Dendrograms can be helpful in determining the number of clusters; however, no obvious patterns have emerged- and understandably so for this dataset.<br/><br />
 <img width="790" alt="Screen Shot 2022-07-29 at 11 05 41 AM" src="https://user-images.githubusercontent.com/79609464/181809532-bd268bbe-eeba-4d50-8f80-672e8fa0b166.png">
 
 #### Elbow Curve
-A cluster size 4 was chosen based on this elbow curve <br />
+A cluster size 4 was chosen based on this elbow curve <br /><br/>
 <img width="663" alt="Screen Shot 2022-07-29 at 11 05 26 AM" src="https://user-images.githubusercontent.com/79609464/181809641-bcf9c7d3-ad31-430f-a7e7-bd5576743c35.png">
 
 ### Results
